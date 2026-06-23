@@ -1,0 +1,213 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b1f3a;
+color:white;
+}
+
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+background:#000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 30px;
+z-index:1000;
+}
+
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:22px;
+font-weight:700;
+}
+
+.logo img{
+width: 40px;
+height: 40px;
+object-fit:cover;
+}
+
+
+.menu{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.menu a:hover
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+padding:120px 80px;
+}
+
+.texto-presentacion{
+flex:1;
+}
+
+.texto-presentacion h1{
+margin-bottom:20px;
+}
+
+.texto-presentacion p{
+margin-bottom:15px;
+line-height:1.7;
+}
+
+.perfil{
+width:350px;
+height:350px;
+object-fit:cover;
+border-radius:20px;
+border:4px solid white;
+}
+
+section{
+padding:80px 50px;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.card{
+background:white;
+color:black;
+width:220px;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:70px;
+margin-bottom:10px;
+}
+
+.grid-proyectos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.proyecto{
+background:white;
+color:black;
+border-radius:15px;
+overflow:hidden;
+text-align:center;
+transition:0.3s;
+}
+
+.proyecto:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.proyecto img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.proyecto h3{
+margin:15px;
+}
+
+.proyecto p{
+padding:0 15px;
+}
+
+.proyecto button{
+margin:20px;
+padding:10px 20px;
+border:none;
+background:#0b1f3a;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+footer{
+background:black;
+padding:40px;
+}
+
+.footer-contenedor{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+}
+
+.contacto-info{
+text-align:left;
+}
+
+footer a{
+color:#4da6ff;
+text-decoration:none;
+}
+
+.redes{
+display:flex;
+gap:15px;
+font-size:30px;
+}
+
+.redes a{
+transition:0.3s;
+}
+
+.redes a:hover{
+transform:scale(1.2);
+}
+.redes img{
+    width:35px;
+    height:35px;
+    object-fit:contain;
+    transition:0.3s;
+}
+
+.redes img:hover{
+    transform:scale(1.15);
+}
+
+.copy{
+text-align:center;
+margin-top:30px;
+}
+
